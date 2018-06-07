@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">時間割アプリ</string>
     <string name="Null"></string>
     <string name="Monday">月曜日</string>
     <string name="Tuesday">火曜日</string>
@@ -12,4 +12,5 @@
     <string name="forth">4限</string>
     <string name="fifth">5限</string>
     <string name="sixth">6限</string>
+
 </resources>
