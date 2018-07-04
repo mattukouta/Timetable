@@ -1,24 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kouta.test1.MainActivity">
+
     <item
-        android:id="@+id/overflow_options"
-        android:icon="@drawable/ic_action_overflow"
-        android:title="Menu"
-        yourapp:showAsAction="always">
-        <menu>
+        android:id="@+id/menu_timetable_reset"
+        android:orderInCategory="100"
+        android:title="時間割をリセットする"
+        app:showAsAction="never"/>
 
-            <item
-                android:id="@+id/menu_timetable_reset"
-                android:title="時間割をリセットする"
-                yourapp:showAsAction="never"/>
-
-            <item
-                android:id="@+id/menu_options"
-                android:title="設定の変更"
-                yourapp:showAsAction="never"/>
-
-        </menu>
-    </item>
+    <item
+        android:id="@+id/menu_options"
+        android:orderInCategory="100"
+        android:title="設定の変更"
+        app:showAsAction="never"/>
 
 </menu>
